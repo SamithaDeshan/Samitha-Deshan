@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <video id="video-background" autoplay muted loop>
+        <source src="images/BG video.m4v" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certification">Certifications</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" style="color: #1eeb0f;" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" style="color: #1def01;" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Computer Engineer(UnderGraduate)</p>
+                <h1>Hi,I'm <span>Samitha Deshan,</span></span><br>From KDU</h1>
+
+            </div>
+        </div>
+    </div>
+    <!-------about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutphoto">
+                    <img src="images/my1.png" width="80%" >
+                </div>
+                <div class="aboutdetails">
+                 <h1 class="sub-title">About me</h1>
+                    <p>After my A/Ls i work full time computer hardware and cctv operator.
+                        My responsible was maintaining and repairing computer hardware such as desktops, laptops, servers, and peripherals. 
+                        I can diagnose hardware issues, replace faulty parts, and ensure that systems are functioning properly 
+                        and may also install software and configure networks.Also I have strong technical skills, 
+                        problem-solving abilities, attention to detail, and the ability to work well under pressure.  
+                        And now i am undergraduate Computer Engineering Student in Sir John Kothalawala Defense University ,
+                        My ambition is step in to the Computer Hardware & Manufacturing Field  and explore
+                         my knowledge that i most favorite.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents tab-active" id="skills">
+                        <ul> 
+                            <li><span>UI/UX</span><br>Designing Web/logo/Posters</li>
+                            <li><span>Computer Assembling</span><br>Desktop Computers/Laptop Computers</li>
+                            <li><span>CCTV Operations</span><br>Planning/Fixing/Instrallments</li>
+                            <li><span>Languages</span><br>C++/JAVA/Python/HTML/CSS/JAVAScript</li>
+                            <li><span>Working with MircoControllers</span><br>Arduino/NodeMCU</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul> 
+                            <li><span>2017-2021</span><br>PartTime Pc Assembler</li>
+                            <li><span>2021-2022</span><br>Computer hardware and CCTV operator</li>
+                            <li><span>2023-Current</span><br>Member of Roboics & Innovation Club of KDU </li>
+                            <li><span>2023-Current</span><br>Member of IEEE KDU Branch Designing Pannel </li>
+                            <li><span>2023-Current</span><br>IEEE Voulantering (99669883) </li>                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul> 
+                            <li><span>2006-2021</span><br>G/Dharmasoka College Ambalangoda</li>
+                            <li><span>2023-Current</span><br>Genaral Sir John Kotelawala Defence University</li>
+                            <li><span>2023-Current</span><br>DveloperStacks Institute </li>                         
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------certifications-------->
+<div id="certification">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="certification-list">
+            <div class="certification-item">
+                <img src="images/computerHardware.png" alt="Computer Hardware Basics Image">
+                <h2>Computer Hardware Basics</h2>
+                <p>Cisco verifies the earner of this badge successfully completed the Computer Hardware Basics course 
+                    and achieved this student level credential. Earner has fundamentals knowledge of computers and 
+                    mobile devices, how they work, as well as the basic concepts 
+                    and skills needed to install components to build, repair, 
+                    upgrade personal computers and and basic troubleshooting tools and techniques</p>
+                    <a href="https://www.credly.com/badges/064bdb12-25bd-4580-b7ea-0a2b17c46091/linked_in_profile">learn more...</a>
+            </div>
+            <div class="certification-item">
+                <img src="images/computerNet.png" alt="Computer Networking Basics Image">
+                <h2>Computer Networking Basics</h2>
+                <p>Cisco verifies the earner of this badge successfully completed the Computer Hardware Basics course 
+                    and achieved this student level credential. Earner has fundamentals knowledge of computers and 
+                    mobile devices, how they work, as well as the basic concepts 
+                    and skills needed to install components to build, repair, 
+                    upgrade personal computers and and basic troubleshooting tools and techniques</p>
+                    <a href="https://skillsforall.com/course/networking-basics?courseLang=en-US&instance_id=f393c38f-b410-4d2b-8275-70e144273519">learn more...</a>
+            </div>
+            <div class="certification-item">
+                <img src="images/psy.jpg" alt="Diplomate in Psychology and Counseling Image">
+                <h2>Diplomate in Psychology and Counseling</h2>
+                <p>A Diplomate in Psychology and Counseling is an individual who has completed a recognized
+                     diploma program in the field of psychology and counseling. This credential typically signifies 
+                     expertise in understanding human behavior, mental health, and providing counseling services.
+                      Diplomates may have received training in various therapeutic approaches, assessment methods,
+                       and ethical practices, allowing them to work in diverse settings such as mental health clinics,
+                        schools, or private practice</p>
+                    <a href="https://sitc.lk/">learn more...</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+ <!------------contacts-------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1><br>
+                <p><i class="fa-solid fa-envelope" style="color: #37ff00;"></i> samithadeshan47@gmail.com</p>
+                <p><i class="fa-solid fa-phone" style="color: #1dfa00;"></i> +94768429231</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/profile.php?id=100009433266662"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/__s_x_m_m_y__/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/SamithaDeshan"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/samitha-deshan-a61015265/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <a href="CV/cv.pdf" class="cv-button" target="_blank">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form class="submit-to-google-sheet">
+                    <input type="text" id="Name" name="Your name" placeholder="Your name" required>
+                    <input type="email" id="Email" name="Your email" placeholder="Your Email">
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+ </div>   
+ <footer>
+    &copy; 2023 Copyright <i class="fa-solid fa-copyright" style="color: #73e105;"></i> Samitha Deshan. All rights reserved.
+</footer>
+    <script>
+        function opentab(tabname) {
+            var tablinks = document.querySelectorAll(".tab-links");
+            var tabcontents = document.querySelectorAll(".tab-contents");
+    
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+    
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("tab-active");
+            }
+    
+            document.querySelector("#" + tabname).classList.add("tab-active");
+    
+            
+            for (var i = 0; i < tablinks.length; i++) {
+                if (tablinks[i].getAttribute("onclick").includes(tabname)) {
+                    tablinks[i].classList.add("active-link");
+                    break;
+                }
+            }
+        }
+    </script>
+    /*----------responsive-----------------*/
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+    function openMenu() {
+        sidemenu.style.right = "0";
+         }
+
+    function closeMenu() {
+         sidemenu.style.right = "-200px";
+        }
+
+     </script>
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyNuUCHlOT6qhZoxob3tlPVWxw9ULdKMmNjQbvQFeF-ltlKGjD1_rHin7X3hO1P7kTO/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
